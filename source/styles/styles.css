@@ -1,0 +1,30 @@
+
+@import "global/fonts";
+@import "global/vars";
+@import "global/base";
+
+@import "partials/visually-hidden";
+@import "partials/button";
+@import "partials/breadcrumbs";
+@import "partials/count";
+@import "partials/status";
+@import "partials/stats";
+@import "partials/stats-item";
+@import "partials/side-menu";
+@import "partials/program-lvl-2";
+@import "partials/program";
+@import "partials/achieve";
+@import "partials/blockquote";
+@import "partials/check-list";
+@import "partials/popover";
+@import "partials/start-card";
+@import "partials/course-card";
+@import "partials/card";
+@import "partials/player";
+@import "partials/page";
+@import "partials/header";
+@import "partials/main-content";
+@import "partials/footer";
+@import "partials/inner";
+
+

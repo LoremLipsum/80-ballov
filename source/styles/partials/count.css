@@ -1,0 +1,21 @@
+.count {
+  white-space: nowrap;
+}
+
+.count__value {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--disabled);
+
+  &:not(:last-child)::after {
+    content: "/";
+    color: var(--disabled);
+    margin-right: -4px;
+  }
+
+  &--current {
+    font-weight: 400;
+    color: var(--primary);
+  }
+}
+

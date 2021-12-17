@@ -1,0 +1,11 @@
+.inner {
+  padding-left: var(--pads);
+  padding-right: var(--pads);
+}
+
+@media screen and (min-width: 1260px) {
+  .inner {
+    width: var(--desktop);
+    margin: 0 auto;
+  }
+}

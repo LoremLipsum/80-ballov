@@ -1,0 +1,33 @@
+:root {
+  --font-family: "Roboto", Arial, sans-serif;
+
+  --black: #000000;
+  --white: #FFFFFF;
+  --white-active: hsla(0deg, 0%, 100%, 0.5);
+
+  --primary: hsl(197, 79%, 53%);
+  --primary-hover: hsl(197deg, 79%, 43%);
+  --primary-active: hsla(197deg, 79%, 43%, 0.3);
+  --secondary: hsl(50deg, 100%, 59%);
+  --secondary-hover: hsl(50deg, 100%, 49%);
+  --light-bg: #F2F2F2;
+  --dark: #010220;
+
+  --title-color: hsl(236deg, 100%, 6%);
+  --title-color-active: hsla(236deg, 100%, 6%, 0.3);
+  --font-color: hsl(235, 20%, 25%);
+  --font-color-active: hsla(235, 20%, 25%, 0.3);
+  --light-font: #666666;
+
+  --disabled: #D9D9D9;
+
+  --box-shadow: 0 0 20px 3px hsla(0deg, 0%, 0%, 0.05);
+
+  --focus: #000220;
+
+  --tablet: 768px;
+  --desktop: 1260px;
+  --pads: 20px;
+}
+
+

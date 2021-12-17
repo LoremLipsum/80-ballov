@@ -1,0 +1,24 @@
+.side-menu {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: var(--box-shadow);
+}
+
+.side-menu__header {
+  padding: 9px 13px;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--dark);
+  color: #FFFFFF;
+}
+
+.side-menu__title {
+  margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.side-menu__main {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}

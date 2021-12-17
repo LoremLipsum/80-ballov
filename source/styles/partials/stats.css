@@ -1,0 +1,26 @@
+.stats__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.stats__item {
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .stats__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 20px;
+  }
+
+  .stats__item {
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+}

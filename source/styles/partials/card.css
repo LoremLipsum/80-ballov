@@ -1,0 +1,35 @@
+.card {
+  --card-bg: var(--primary);
+
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 5px;
+    border-radius: 5px 0 0 5px;
+    background-color: var(--card-bg);
+  }
+
+  &--secondary {
+    --card-bg: var(--secondary);
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .card {
+    border-radius: 10px;
+
+    &::before {
+      width: 8px;
+      border-radius: 10px 0 0 10px;
+    }
+  }
+}

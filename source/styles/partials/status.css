@@ -1,0 +1,30 @@
+.status {
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.status__icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  mask-position: center;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &--disabled {
+    background-color: var(--disabled);
+  }
+
+  &--lock {
+    mask-image: url("../images/icons/lock.svg");
+  }
+
+  &--check {
+    mask-image: url("../images/icons/check.svg");
+  }
+}
+
