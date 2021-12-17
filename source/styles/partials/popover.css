@@ -85,6 +85,10 @@
       font-size: 15px;
       line-height: 22px;
 
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+
       &::before {
         content: "";
         position: absolute;
